@@ -19,7 +19,7 @@
   font-family: "Inter Regular", sans-serif;
   font-size: 24px;
   line-height: 1.41;
-  width: 738px;
+  max-width: 738px;
   margin: 40px 0 auto;
 }
 
@@ -31,7 +31,6 @@
   width: 738px;
   text-align: right;
   margin: 10px 0 auto;
-  padding-right: 6px;
 }
 
 .intro__text {
@@ -41,4 +40,55 @@
   line-height: 1.63;
   width: 722px;
   margin: 32px 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    width: 720px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .intro__title {
+    font-size: 45px;
+    line-height: 1.08;
+    max-width: 720px;
+    margin: 90px 0 auto;
+  }
+
+  .intro__subtitle {
+    max-width: 720px;
+  }
+
+  .intro__sign {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .intro {
+    max-width: 288px;
+  }
+
+  .intro__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 1.09;
+    margin: 64px 0 auto;
+  }
+
+  .intro__subtitle {
+    max-width: 288px;
+    font-size: 24px;
+    line-height: 1.41;
+    margin: 40px 0 auto;
+  }
+
+  .intro__sign {
+    max-width: 288px;
+  }
+
+  .intro__text {
+    max-width: 288px;
+  }
 }

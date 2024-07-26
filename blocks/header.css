@@ -2,3 +2,13 @@
   display: flex;
   justify-content: center;
 }
+
+.header__logo {
+  width: 254px;
+}
+
+@media screen and (max-width: 544px) {
+  .header__logo {
+    width: 188px;
+  }
+}
