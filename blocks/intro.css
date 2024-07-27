@@ -72,20 +72,11 @@
   .intro__title {
     font-size: 32px;
     line-height: 1.09;
-    /* margin: 64px 0 auto; */
   }
 
   .intro__subtitle {
     font-size: 24px;
     line-height: 1.41;
     margin: 40px 0 auto;
-  }
-
-  .intro__sign {
-    margin: 10px 0 auto;
-  }
-
-  .intro__text {
-    margin: 32px 0 auto;
   }
 }
