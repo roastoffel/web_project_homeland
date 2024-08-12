@@ -1,0 +1,48 @@
+.places {
+  margin: 0 auto;
+  padding: 0 0 90px;
+  max-width: 984px;
+}
+
+.places__item_title {
+  color: #ffffff;
+  font-family: "Inter Black", sans-serif;
+  font-size: 72px;
+  max-width: 460px;
+  margin: 0;
+}
+
+.places__item_image {
+  max-width: 460px;
+  padding: 48px 40px 48px 0;
+}
+
+.places__item_artists {
+  max-width: 456px;
+  padding-bottom: 48px;
+}
+
+.places__item_artists_header {
+  color: #aaaaaa;
+  font-family: "Inter Regular", sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin: 0;
+  padding-bottom: 8px;
+}
+
+.places__item_artists_name {
+  color: #ffffff;
+  font-family: "Inter Regular", sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+.places__item_paragraph {
+  color: #ffffff;
+  font-family: "Inter Regular", sans-serif;
+  font-size: 18px;
+  max-width: 484px;
+  padding-bottom: 25px;
+  line-height: 163%;
+}
