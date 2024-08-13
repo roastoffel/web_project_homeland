@@ -2,18 +2,19 @@
   margin: 0 auto;
   padding: 0 0 90px;
   max-width: 984px;
+  display: grid;
+  row-gap: 80px;
 }
 
 .places__item {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 460px 484px;
   grid-template-areas:
     "title artists"
     "image paragraph"
     "button paragraph"
     ". paragraph";
   column-gap: 40px;
-  row-gap: 48px;
 }
 
 .places__item_title {
@@ -21,6 +22,7 @@
   font-family: "Inter Black", sans-serif;
   font-size: 72px;
   margin: 0;
+  padding-bottom: 48px;
   grid-area: title;
 }
 
@@ -41,11 +43,13 @@
   border-radius: 4px;
   border-style: none;
   grid-area: button;
+  margin-top: 48px;
 }
 
 .places__item_artists {
   grid-area: artists;
   align-content: end;
+  padding-bottom: 48px;
 }
 
 .places__item_artists_header {
@@ -70,6 +74,6 @@
   font-family: "Inter Regular", sans-serif;
   font-size: 18px;
   max-width: 484px;
-  line-height: 163%;
+  line-height: 1.63;
   grid-area: paragraph;
 }
