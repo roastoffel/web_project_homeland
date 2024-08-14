@@ -5,7 +5,7 @@ A página De Pátria para Pátria é o quinto projeto do programa de Desenvolvim
 ## Recursos do projeto
 
 - HTML semântico;
-- Flexbox;
+- Grid Layout;
 - Instalação de fontes via @font-face;
 - Media Query;
 - Responsividade.
