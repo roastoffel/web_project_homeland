@@ -54,10 +54,12 @@
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   width: 356px;
-  padding: 13px 20px;
+  padding: 13px 0;
   color: #ffffff;
   font-family: "Inter Semibold", sans-serif;
   font-size: 18px;
+  text-align: center;
+  text-decoration: none;
   background-color: #000000;
   background-image: -webkit-gradient(
     linear,
@@ -146,9 +148,9 @@
   .places__item_title {
     font-size: 42px;
   }
-  .places__item_button {
+  /* .places__item_button {
     width: auto;
-  }
+  } */
   .places__item_paragraph {
     font-size: 16px;
   }
