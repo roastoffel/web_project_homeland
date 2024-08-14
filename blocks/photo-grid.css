@@ -28,6 +28,5 @@
   .photo-grid {
     padding: 38px 16px 62px;
     grid-template-columns: 1fr;
-    /* max-width: 288px; */
   }
 }

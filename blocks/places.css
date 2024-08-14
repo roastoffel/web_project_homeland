@@ -111,3 +111,36 @@
     font-size: 16px;
   }
 }
+
+@media screen and (max-width: 544px) {
+  .places {
+    padding: 0 0 65px;
+  }
+  .places__item {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "artists"
+      "image"
+      "paragraph"
+      "button";
+  }
+  .places__item_title {
+    font-size: 32px;
+    padding: 0 16px 30px;
+  }
+  .places__item_artists {
+    padding: 0 16px 30px;
+  }
+  .places__item_image {
+    box-shadow: none;
+  }
+  .places__item_paragraph {
+    padding: 30px 16px 0;
+  }
+  .places__item_button {
+    font-size: 14px;
+    width: 288px;
+    margin: 30px 16px 0;
+  }
+}
