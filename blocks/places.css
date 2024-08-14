@@ -1,6 +1,6 @@
 .places {
   margin: 0 auto;
-  padding: 0 0 90px;
+  padding: 0 24px 90px;
   max-width: 984px;
   display: grid;
   row-gap: 80px;
@@ -94,12 +94,20 @@
   grid-area: paragraph;
 }
 
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .places {
-    margin: 0 auto;
-    padding: 0 0 90px;
-    max-width: 720px;
-    display: grid;
-    row-gap: 80px;
+    row-gap: 72px;
   }
-} */
+  .places__item {
+    column-gap: 28px;
+  }
+  .places__item_title {
+    font-size: 42px;
+  }
+  .places__item_button {
+    width: auto;
+  }
+  .places__item_paragraph {
+    font-size: 16px;
+  }
+}
