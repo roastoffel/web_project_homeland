@@ -22,7 +22,7 @@
   column-gap: 40px;
 }
 
-.places__item_title {
+.places__item-title {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   color: #ffffff;
@@ -33,7 +33,7 @@
   grid-area: title;
 }
 
-.places__item_image {
+.places__item-image {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   max-width: 100%;
@@ -46,12 +46,12 @@
   margin: 0;
 }
 
-.places__item_image:hover {
+.places__item-image:hover {
   -webkit-filter: brightness(0.5);
   filter: brightness(0.5);
 }
 
-.places__item_button {
+.places__item-button {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   width: 356px;
@@ -62,15 +62,15 @@
   text-align: center;
   text-decoration: none;
   background-color: #000000;
-  background-image: -webkit-gradient(
+  background: -webkit-gradient(
     linear,
     left top,
     right top,
     from(#0278fe),
     color-stop(99.98%, #003a7b)
   );
-  background-image: -o-linear-gradient(left, #0278fe 0%, #003a7b 99.98%);
-  background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+  background: -o-linear-gradient(left, #0278fe 0%, #003a7b 99.98%);
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
   -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
@@ -79,27 +79,27 @@
   margin-top: 48px;
 }
 
-.places__item_button:hover {
-  background-image: -webkit-gradient(
+.places__item-button:hover {
+  background: -webkit-gradient(
     linear,
     left top,
     right top,
     from(rgba(2, 120, 254, 0.25)),
     color-stop(99.98%, rgba(0, 58, 123, 0.25))
   );
-  background-image: -o-linear-gradient(
+  background: -o-linear-gradient(
     left,
     rgba(2, 120, 254, 0.25) 0%,
     rgba(0, 58, 123, 0.25) 99.98%
   );
-  background-image: linear-gradient(
+  background: linear-gradient(
     90deg,
     rgba(2, 120, 254, 0.25) 0%,
     rgba(0, 58, 123, 0.25) 99.98%
   );
 }
 
-.places__item_artists {
+.places__item-artists {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
   grid-area: artists;
@@ -108,7 +108,7 @@
   padding-bottom: 48px;
 }
 
-.places__item_artists-header {
+.places__item-artists-header {
   color: #aaaaaa;
   font-family: "Inter Regular", sans-serif;
   font-size: 12px;
@@ -117,7 +117,7 @@
   padding-bottom: 8px;
 }
 
-.places__item_artists-name {
+.places__item-artists-name {
   color: #ffffff;
   font-family: "Inter Regular", sans-serif;
   font-size: 18px;
@@ -125,7 +125,7 @@
   padding-top: 4px;
 }
 
-.places__item_paragraph {
+.places__item-paragraph {
   -ms-grid-row: 2;
   -ms-grid-row-span: 3;
   -ms-grid-column: 3;
@@ -137,11 +137,11 @@
   grid-area: paragraph;
 }
 
-.places__item_paragraph-with-margin {
+.places__item-paragraph-with-margin {
   margin: 0 auto 25px;
 }
 
-.places__item_paragraph-without-margin {
+.places__item-paragraph-without-margin {
   margin: 0 auto;
 }
 
@@ -154,14 +154,14 @@
     -moz-column-gap: 28px;
     column-gap: 28px;
   }
-  .places__item_title {
+  .places__item-title {
     font-size: 42px;
   }
-  .places__item_image {
+  .places__item-image {
     max-width: 340px;
     max-height: 340px;
   }
-  .places__item_paragraph {
+  .places__item-paragraph {
     font-size: 16px;
   }
 }
@@ -180,42 +180,42 @@
       "paragraph"
       "button";
   }
-  .places__item_title {
+  .places__item-title {
     font-size: 32px;
     padding: 0 16px 30px;
   }
-  .places__item_artists {
+  .places__item-artists {
     padding: 0 16px 30px;
   }
-  .places__item_image {
+  .places__item-image {
     -webkit-box-shadow: none;
     box-shadow: none;
   }
-  .places__item_paragraph {
+  .places__item-paragraph {
     padding: 30px 16px 0;
   }
-  .places__item_button {
+  .places__item-button {
     font-size: 14px;
     width: 288px;
     margin: 30px 16px 0;
   }
-  .places__item_title {
+  .places__item-title {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
   }
-  .places__item_image {
+  .places__item-image {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
   }
-  .places__item_button {
+  .places__item-button {
     -ms-grid-row: 5;
     -ms-grid-column: 1;
   }
-  .places__item_artists {
+  .places__item-artists {
     -ms-grid-row: 2;
     -ms-grid-column: 1;
   }
-  .places__item_paragraph {
+  .places__item-paragraph {
     -ms-grid-row: 4;
     -ms-grid-row-span: 1;
     -ms-grid-column: 1;
