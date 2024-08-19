@@ -3,15 +3,16 @@
   padding: 0 24px 90px;
   max-width: 984px;
   display: -ms-grid;
-  display: grid;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   row-gap: 80px;
 }
 
 .places__item {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 40px 1fr;
-  grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "title artists"
     "image paragraph"
@@ -31,12 +32,13 @@
   margin: 0;
   padding-bottom: 48px;
   grid-area: title;
+  max-width: 460px;
 }
 
 .places__item-image {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
-  max-width: 100%;
+  max-width: 460px;
   max-height: 460px;
   width: 100%;
   height: 100%;
@@ -156,11 +158,13 @@
   }
   .places__item-title {
     font-size: 42px;
+    max-width: 340px;
   }
   .places__item-image {
     max-width: 340px;
     max-height: 340px;
   }
+
   .places__item-paragraph {
     font-size: 16px;
   }
@@ -206,6 +210,8 @@
   .places__item-image {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
+    max-width: unset;
+    max-height: unset;
   }
   .places__item-button {
     -ms-grid-row: 5;
